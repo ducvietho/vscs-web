@@ -20,7 +20,6 @@ export default {
   },
   created () {
     AOS.init()
-    document.title = 'vscs'
   },
   computed: {
      screen() {
